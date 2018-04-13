@@ -166,7 +166,7 @@
  
         </plugins>
     </pluginManagement>
-	<extensions>
+	<extensions
             <extension>
                 <groupId>org.apache.maven.wagon</groupId>
                 <artifactId>wagon-ssh</artifactId>
