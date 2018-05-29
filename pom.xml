@@ -30,13 +30,13 @@
 	<distributionManagement>
         <repository>
             <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/central/</url>
+            <name>example-repo-local</name>
+            <url>http://13.127.64.66:8081/artifactory/example-repo-local</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/central/</url>
+            <name>example-repo-local</name>
+            <url>http://13.127.64.66:8081/artifactory/example-repo-local</url>
         </snapshotRepository>
     </distributionManagement> 
 	<dependencies>
